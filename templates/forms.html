@@ -1,0 +1,11 @@
+{% load staticfiles %}
+
+<form method='POST' action=''> {% csrf_token %}
+
+<img src="{% static 'img/images1.jpg' %}" height="42" width="42"/>
+
+{{form.as_p}}
+
+<input type='submit' value='Submit'/>
+
+</form>
