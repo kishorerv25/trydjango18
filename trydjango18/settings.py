@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+<<<<<<< HEAD
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'kishorebg025@gmail.com'
 EMAIL_HOST_PASSWORD = 'lokaseva'
@@ -38,6 +39,8 @@ If using gmail, you will need to unlock Captcha
 to enable Django to send for you:
 https://accpunts.google.com/displayunlockcaptcha
 '''
+=======
+>>>>>>> 9fd0748a7995a1f445ae975cf4cfea51c8860cda
 
 # Application definition
 
@@ -68,7 +71,11 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates'),
+<<<<<<< HEAD
                  "/home/madhusudan/DjangoProjects/trydjango18/src"],
+=======
+                 "/home/kishore/DjangoProjects/trydjango18/src"],
+>>>>>>> 9fd0748a7995a1f445ae975cf4cfea51c8860cda
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -113,6 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+<<<<<<< HEAD
 
 #static_root will have data wch is sent from staticfiles_dirs i,e by running collectstatic 
 STATIC_ROOT =  os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "static_root")
@@ -126,3 +134,5 @@ STATICFILES_DIRS = (
 MEDIA_URL = '/media/'
 #MEDIA_ROOT stores users data like profile photo
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "media_root")
+=======
+>>>>>>> 9fd0748a7995a1f445ae975cf4cfea51c8860cda

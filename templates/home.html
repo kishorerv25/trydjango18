@@ -4,6 +4,7 @@
 <br> </br>
 {{request.user}}
 
+<<<<<<< HEAD
 
 <form method='POST' action=''> {% csrf_token %}
 
@@ -11,5 +12,10 @@
 {{form.as_p}}
 
 <input type='submit' value='SignUp'/>
+=======
+<form method="POST" action="">{% csrf_token %}
+{{form.as_p}}
+	<input type="submit" value="Sign Up"/>
+>>>>>>> 9fd0748a7995a1f445ae975cf4cfea51c8860cda
 
 </form>
